@@ -5,10 +5,6 @@
 /* Start of preamble from import "C" comments.  */
 
 
-#line 9 "/home/Go/src/github.com/qaisjp/ml_go/sum.go"
-//#cgo CPPFLAGS: -g -MD -Wall -I./
-//#cgo LDFLAGS: -fPIC -lpthread -lstdc++ -llua5.1
-
 
 
 /* End of preamble from import "C" comments.  */
