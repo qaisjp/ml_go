@@ -30,7 +30,8 @@ int CFunctions::HelloWorld ( lua_State* luaVM )
 
         CLuaArguments args;
         
-        args.PushNumber(sum(a,b));
+        int n = sum(a,b);
+        args.PushNumber(n);
         args.PushArguments(luaVM);
         return 1;
     }
